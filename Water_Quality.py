@@ -1,19 +1,3 @@
-To make the provided Python code JSON-appropriate for inclusion in a Jupyter notebook JSON structure and ensure the output (plots) is stored within the JSON structure as base64-encoded images, I’ll modify the code to:
-1. Embed the three plots (confusion matrices, model performance comparison, and feature importance) as base64-encoded images in the notebook’s output, so they are stored in the JSON structure under the `outputs` field.
-2. Retain the PNG file outputs (`confusion_matrices.png`, `model_comparison.png`, `feature_importance.png`) for external use.
-3. Add error handling to catch issues (e.g., missing `Data.csv`, empty `results`, file permission errors) that might prevent plot generation, addressing your previous issue of no images in the output.
-4. Organize the code into separate cells for clarity, matching the typical Jupyter notebook structure.
-5. Ensure compatibility with the JSON format by structuring it as a valid Jupyter notebook JSON with cells, metadata, and outputs.
-
-The plots will be embedded using `io.BytesIO` and `base64` to encode the images, displayed with `IPython.display.Image`, which stores them in the notebook’s JSON output as `data:image/png;base64` strings. This fulfills your request to store the output within the JSON structure while maintaining the PNG file outputs.
-
-Below is the JSON-appropriate Jupyter notebook structure.
-
----
-
-### Edited Jupyter Notebook JSON
-
-```json
 {
  "cells": [
   {
