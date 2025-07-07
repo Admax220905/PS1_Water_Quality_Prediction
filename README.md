@@ -41,9 +41,6 @@ This repository contains an exciting machine learning project to predict water q
 - Open the Jupyter notebook or script to explore data and run the models. 📓
 - Adjust parameters or models to fit your dataset or needs! ⚙️
 
-## Contributing 🤝
-We’d love your input! Fork the repo and submit a pull request with your great changes. 🌟
-
 ## Future References 📅
 - **Model Optimization**: Explore advanced techniques like deep learning for improved WQI prediction. 🤖
 - **Real-Time Data**: Integrate live water quality sensors for dynamic updates. 📡
