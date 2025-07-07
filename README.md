@@ -1,4 +1,4 @@
-# PS1_Water_Quality_Prediction 🌊💧
+# Water Quality Prediction for Concrete Mixing 🌊💧
 
 ## Overview 📊
 This repository contains an exciting machine learning project to predict water quality! 🎉 We calculate the Water Quality Index (WQI) and assess water quality status using key parameters, making water monitoring smarter and more effective! 🌱
